@@ -1,7 +1,7 @@
 #!/bin/bash
 #这里可替换为你自己的执行程序，其他代码无需更改
-DEPLOY_DIR=/opt/wallet-public-api
-APP_NAME=wallet-public-api.jar
+DEPLOY_DIR=/app
+APP_NAME=app.jar
 STDOUT_LOG_FILE=/dev/null
 JVM_OPTIONS="-Xms256m -Xmx512m"
 #使用说明，用来提示输入参数
